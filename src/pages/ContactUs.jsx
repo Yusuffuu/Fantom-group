@@ -36,7 +36,7 @@ const ContactUs = () => {
         <div>
           <div className="bg-white p-6 rounded-xl shadow-lg mb-6 border border-gray-200">
             <h3 className="text-xl font-bold text-fantomBlue mb-4 flex items-center gap-2">
-              <img src="/mappin.svg" alt="Location" className="w-5 h-5" style={{ width: '20px', height: '20px' }} />
+              <img src="./mappin.svg" alt="Location" className="w-5 h-5" style={{ width: '20px', height: '20px' }} />
               Our Location
             </h3>
             <p className="text-gray-700 mb-2">F17 Ruaraka Square Thika Rd, Kasarani Constituency, Kenya, 00400</p>
@@ -58,11 +58,11 @@ const ContactUs = () => {
             <h3 className="text-xl font-bold text-fantomBlue mb-4">Contact Details</h3>
             <div className="space-y-3">
               <p className="flex items-center gap-3 text-gray-700">
-                <img src="/phone.svg" alt="Phone" className="w-5 h-5" style={{ width: '20px', height: '20px' }} />
+                <img src="./phone.svg" alt="Phone" className="w-5 h-5" style={{ width: '20px', height: '20px' }} />
                 +254 724 880 000
               </p>
               <p className="flex items-center gap-3 text-gray-700">
-                <img src="/mail.svg" alt="Email" className="w-5 h-5" style={{ width: '20px', height: '20px' }} />
+                <img src="./mail.svg" alt="Email" className="w-5 h-5" style={{ width: '20px', height: '20px' }} />
                 hello@fantomgrp.com
               </p>
             </div>
@@ -74,7 +74,7 @@ const ContactUs = () => {
                 className="hover:opacity-70 transition-opacity duration-200"
                 aria-label="Facebook"
               >
-                <img src="/facebook.svg" alt="Facebook" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
+                <img src="./facebook.svg" alt="Facebook" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
               </a>
               <a 
                 href="https://x.com/FantomGrp"
@@ -83,7 +83,7 @@ const ContactUs = () => {
                 className="hover:opacity-70 transition-opacity duration-200"
                 aria-label="Twitter/X"
               >
-                <img src="/x.svg" alt="Twitter/X" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
+                <img src="./x.svg" alt="Twitter/X" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
               </a>
               <a 
                 href="https://www.instagram.com/fantom.capita?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" 
@@ -92,7 +92,7 @@ const ContactUs = () => {
                 className="hover:opacity-70 transition-opacity duration-200"
                 aria-label="Instagram"
               >
-                <img src="/instagram.svg" alt="Instagram" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
+                <img src="./instagram.svg" alt="Instagram" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
               </a>
               <a
                 href="https://www.tiktok.com/@fantom_estates?is_from_webapp=1&sender_device=pc&web_id=7210591556789052934"
@@ -101,7 +101,7 @@ const ContactUs = () => {
                 className="hover:opacity-70 transition-opacity duration-200"
                 aria-label="TikTok"
               >
-                <img src="/tiktok.svg" alt="TikTok" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
+                <img src="./tiktok.svg" alt="TikTok" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
               </a>
               <a
                 href="https://www.youtube.com/@fantom_media"
@@ -110,7 +110,7 @@ const ContactUs = () => {
                 className="hover:opacity-70 transition-opacity duration-200"
                 aria-label="Youtube"
               >
-                <img src="/youtube.svg" alt="youtube" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
+                <img src="./youtube.svg" alt="youtube" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
               </a>
               <a
                 href="https://www.linkedin.com/company/fantom-estates-limited/"
@@ -119,7 +119,7 @@ const ContactUs = () => {
                 className="hover:opacity-70 transition-opacity duration-200"
                 aria-label="LinkedIn"
               >
-                <img src="/linkedin.svg" alt="LinkedIn" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
+                <img src="./linkedin.svg" alt="LinkedIn" className="w-7 h-7" style={{ width: '28px', height: '28px' }} />
               </a>
             </div>
           </div>
@@ -189,7 +189,7 @@ const ContactUs = () => {
               type="submit"
               className="w-full bg-fantomGreen text-white py-3 rounded-lg font-semibold hover:bg-fantomGreen/80 transition flex items-center justify-center gap-2"
             >
-              <img src="/send.svg" alt="Send" className="w-4.5 h-4.5" style={{ width: '18px', height: '18px' }} />
+              <img src="./send.svg" alt="Send" className="w-5 h-5" style={{ width: '24px', height: '24px' }} />
               Send Message
             </button>
           </form>

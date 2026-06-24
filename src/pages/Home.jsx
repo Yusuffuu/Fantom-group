@@ -6,7 +6,7 @@ const Home = () => {
     <div
       className="relative min-h-[calc(100vh-4rem)] flex items-center justify-center overflow-hidden bg-black"
       style={{
-        backgroundImage: "url('/hero-bg.gif')",
+        backgroundImage: "url('./hero-bg.gif')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -24,7 +24,7 @@ const Home = () => {
           className="mb-6"
         >
           <img
-            src="/Fantom_group.png"
+            src="./Fantom_group.png"
             alt="Fantom Group"
             className="h-100 w-auto mx-auto drop-shadow-lg"
           />

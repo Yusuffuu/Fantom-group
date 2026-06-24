@@ -38,7 +38,7 @@ const NavBar = () => {
           {/* Center Logo (always visible) */}
           <NavLink to="/" className="shrink-0 flex justify-center">
             <img
-              src="/Fantom_group.png"
+              src="./Fantom_group.png"
               alt="Fantom Group Home"
               className="h-16 w-auto"
             />

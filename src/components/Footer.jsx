@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="inline-block">
               <img
-                src="/Fantom_group.png"
+                src="./Fantom_group.png"
                 alt="Fantom Group"
                 className="h-24 w-auto brightness-0 invert" // makes logo white
               />
@@ -71,22 +71,22 @@ const Footer = () => {
             <div className="flex space-x-4 mb-4">
               {/* Replace with your actual SVG file names */}
               <a href="https://www.facebook.com/share/1D7BaLXbq6/" className="hover:text-fantomGreen transition" target="_blank" rel="noopener noreferrer">
-                <img src="/facebook.svg" alt="Facebook" className="h-5 w-5" />
+                <img src="./facebook.svg" alt="Facebook" className="h-5 w-5" />
               </a>
               <a href="https://x.com/FantomGrp" className="hover:text-fantomGreen transition" target="_blank" rel="noopener noreferrer">
-                <img src="/x.svg" alt="Twitter" className="h-5 w-5" />
+                <img src="./x.svg" alt="Twitter" className="h-5 w-5" />
               </a>
               <a href="https://www.instagram.com/fantom.capita?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-fantomGreen transition" target="_blank" rel="noopener noreferrer">
-                <img src="/instagram.svg" alt="Instagram" className="h-5 w-5" />
+                <img src="./instagram.svg" alt="Instagram" className="h-5 w-5" />
               </a>
               <a href="https://www.tiktok.com/@fantom_estates?is_from_webapp=1&sender_device=pc&web_id=7210591556789052934" className="hover:text-fantomGreen transition" target="_blank" rel="noopener noreferrer">
-                <img src="/tiktok.svg" alt="TikTok" className="h-5 w-5" />
+                <img src="./tiktok.svg" alt="TikTok" className="h-5 w-5" />
               </a>
               <a href="https://www.youtube.com/@fantom_media" className="hover:text-fantomGreen transition" target="_blank" rel="noopener noreferrer">
-                <img src="/youtube.svg" alt="YouTube" className="h-5 w-5" />
+                <img src="./youtube.svg" alt="YouTube" className="h-5 w-5" />
               </a>
               <a href="https://www.linkedin.com/company/fantom-estates-limited/" className="hover:text-fantomGreen transition" target="_blank" rel="noopener noreferrer">
-                <img src="/linkedin.svg" alt="LinkedIn" className="h-5 w-5" />
+                <img src="./linkedin.svg" alt="LinkedIn" className="h-5 w-5" />
               </a>
             </div>
             <div className="text-sm text-gray-400">
