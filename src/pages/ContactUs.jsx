@@ -22,7 +22,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12 bg-white">
+    <div className="max-w-screen-2xl mx-auto px-4 py-12 bg-white">
       <motion.h1 
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

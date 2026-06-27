@@ -3,7 +3,7 @@ import { Shield, ArrowLeft } from 'lucide-react';
 
 const Insure = () => {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-12 bg-white">
+    <div className="max-w-screen-2xl mx-auto px-4 py-12 bg-white">
       <Link to="/services" className="inline-flex items-center gap-2 text-fantomBlue hover:text-fantomGreen mb-6">
         <ArrowLeft size={20} /> Back to Services
       </Link>

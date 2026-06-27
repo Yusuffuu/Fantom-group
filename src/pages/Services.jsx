@@ -35,7 +35,7 @@ const services = [
 const Services = () => {
   return (
     <div className="min-h-screen bg-linear-to-b from-white via-blue-50/30 to-white py-16">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-screen-2xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">
           <motion.h1
