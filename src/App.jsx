@@ -1,17 +1,17 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';  // ✅ ADD THIS
 import Layout from './components/Layout';
 import Home from './pages/Home';
-import About from './pages/About';
-import Services from './pages/Services';
-import Testimonials from './pages/Testimonials';
-import ContactUs from './pages/ContactUs';
 import Capital from './pages/Capital';
 import Estates from './pages/Estates';
 import Insure from './pages/Insure';
 
+// You no longer need separate imports for About, Services, etc. if they're inside Home
+
 function App() {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import About from './About';
@@ -6,6 +8,25 @@ import Testimonials from './Testimonials';
 import ContactUs from './ContactUs';
 
 const Home = () => {
+  const location = useLocation();
+
+  // 🔽 Scroll to section when hash changes
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) {
+        // Small delay ensures the DOM is fully painted
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    } else {
+      // No hash → scroll to top
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }, [location.hash]);
+
   return (
     <div>
       {/* ✅ FIXED: className and style are now inside the <section> tag */}
@@ -25,8 +46,9 @@ const Home = () => {
         <div className="relative z-10 max-w-screen-2xl mx-auto text-center px-4 sm:px-6 lg:px-8 py-12">
           <motion.div
             initial={{ scale: 0.8, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
+            whileInView={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.5 }}
             className="mb-6"
           >
             <img

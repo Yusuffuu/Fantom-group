@@ -58,9 +58,9 @@ const Services = () => {
             <motion.div
               key={service.id}
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
+              whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.15 }}
-              whileHover={{ y: -8 }}
+              viewport={{ once: true, amount: 0.5 }}
               className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden flex flex-col"
             >
               {/* Image with gradient background */}

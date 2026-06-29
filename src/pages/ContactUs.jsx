@@ -25,7 +25,8 @@ const ContactUs = () => {
     <div className="max-w-screen-2xl mx-auto px-4 py-12 bg-white">
       <motion.h1 
         initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, amount: 0.5 }}
         className="text-4xl font-bold text-fantomBlue text-center mb-12"
       >
         Get In Touch

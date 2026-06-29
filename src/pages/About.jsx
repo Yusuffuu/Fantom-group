@@ -6,8 +6,9 @@ const About = () => {
     <div className="max-w-screen-2xl mx-auto px-4 py-12 bg-white">
       <motion.h1 
         initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
+        viewport={{ once: true, amount: 0.5 }}
         className="text-4xl font-bold text-fantomBlue mb-6 text-center"
       >
         About Fantom Group
@@ -24,7 +25,8 @@ const About = () => {
       <div className="grid md:grid-cols-3 gap-8">
         {/* Mission */}
         <motion.div 
-          whileHover={{ scale: 1.03 }}
+          whileInView={{ scale: 1.03 }}
+          viewport={{ once: true, amount: 0.5 }}
           className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-fantomGreen"
         >
           <Target className="text-fantomGreen w-12 h-12 mb-4" />
@@ -36,7 +38,8 @@ const About = () => {
 
         {/* Vision */}
         <motion.div 
-          whileHover={{ scale: 1.03 }}
+          whileInView={{ scale: 1.03 }}
+          viewport={{ once: true, amount: 0.5 }}
           className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-fantomBlue"
         >
           <Eye className="text-fantomBlue w-12 h-12 mb-4" />
@@ -48,7 +51,8 @@ const About = () => {
 
         {/* Core Values */}
         <motion.div 
-          whileHover={{ scale: 1.03 }}
+          whileInView={{ scale: 1.03 }}
+          viewport={{ once: true, amount: 0.5 }}
           className="bg-white p-6 rounded-xl shadow-lg border-t-4 border-fantomGreen"
         >
           <Heart className="text-fantomGreen w-12 h-12 mb-4" />
